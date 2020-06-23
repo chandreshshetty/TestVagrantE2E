@@ -1,0 +1,22 @@
+2020-06-24 01:12:22,498  INFO [main] Log:58 - -----maximizing the browser window-----
+2020-06-24 01:12:22,620  INFO [main] Log:60 - Navigated to NDTV Website
+2020-06-24 01:12:26,111  INFO [main] WeatherDisplayTest:29 - Navigating to Weather page from Ndtv Home Page
+2020-06-24 01:12:42,922  INFO [main] Log:37 - waiting for specified element to display
+2020-06-24 01:12:43,305  INFO [main] Log:37 - waiting for specified element to display
+2020-06-24 01:12:43,490  INFO [main] Log:37 - waiting for specified element to display
+2020-06-24 01:12:43,717  INFO [main] WeatherDisplayTest:31 - Searching for Bengaluru city in the Pin Your City search box
+2020-06-24 01:12:43,718  INFO [main] Log:37 - waiting for specified element to display
+2020-06-24 01:12:46,397  INFO [main] Log:37 - Entered Bengaluru in the Pin Your City Search Box
+2020-06-24 01:12:46,728  INFO [main] WeatherDisplayTest:33 - Click on the checkbox for the selected city
+2020-06-24 01:12:48,749  INFO [main] Log:37 - waiting for specified element to display
+2020-06-24 01:12:48,768  INFO [main] Log:51 - Clicking on the city checkbox after searching
+2020-06-24 01:12:48,778  INFO [main] WeatherDisplayTest:35 - Validate that selecting any city on the map itself reveals the weather details
+2020-06-24 01:12:48,792  INFO [main] Log:37 - waiting for specified element to display
+2020-06-24 01:12:48,808  INFO [main] Log:69 - Validating whether weather details revealed in the Map or Not
+2020-06-24 01:12:48,830  INFO [main] WeatherDisplayTest:38 - Clicking on city name to view complete weather details
+2020-06-24 01:12:48,843  INFO [main] Log:37 - waiting for specified element to display
+2020-06-24 01:12:48,917  INFO [main] WeatherDisplayTest:40 - fetch all required weather details from map and adding it in hashmap
+2020-06-24 01:12:49,140  INFO [main] WeatherDisplayTest:42 - fetch all required weather details through API and adding it in hashmap
+2020-06-24 01:12:49,618  INFO [main] WeatherDisplayTest:45 - validate temperature in the Map and from API with variance value
+2020-06-24 01:12:49,619  INFO [main] Log:31 - variance value after comparing is: 4.73
+2020-06-24 01:12:49,622  INFO [main] Log:66 - -----closing down browser window-----
