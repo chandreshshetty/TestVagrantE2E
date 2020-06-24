@@ -2,6 +2,8 @@
 
 This Framework developed using Page Object Model stracture and this framework can be used to automate both API and UI applications
 
+#####Selenium,RestAssured,TestNG,log4j
+
 Setup all required data in the globalConfig properties file or we can pass 'city' and 'browser' value as arguments while executing through commands
 
 mvn test -Dcity=Bengaluru -Dbrowser=chrome
