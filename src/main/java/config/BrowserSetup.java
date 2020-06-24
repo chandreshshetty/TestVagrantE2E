@@ -7,6 +7,7 @@ import org.apache.commons.logging.Log;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -34,6 +35,7 @@ public class BrowserSetup extends BaseTest {
 				logger.info("-----browser invoking-----");
 				// setting up firefox driver exe through Webdriver manager
 				WebDriverManager.firefoxdriver().setup();
+				driver = new FirefoxDriver();
 				BaseTest.setWebDriverLocal(driver);
 				break;
 			default:
@@ -51,6 +53,7 @@ public class BrowserSetup extends BaseTest {
 	public void browserSetup() throws Exception {
 		// method used to read properties file values
 		ConfigReader.readConfigData();
+		System.out.println(ConfigReader.browser);
 		InitializeBrowser(ConfigReader.browser);
 		getWebDriver().manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		getWebDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
